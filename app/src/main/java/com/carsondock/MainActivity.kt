@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
         setContent { CarsonDockHome() }
     }
 
-    private fun launchPackage(packageName: String) {
+    fun launchPackage(packageName: String) {
         packageManager.getLaunchIntentForPackage(packageName)?.let(::startActivity)
     }
 }
