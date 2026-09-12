@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">CarsonDock icon</title>
+  <desc id="desc">A rounded glass dock with a stylized C and three colorful app dots.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#a9c9ff"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#dce8ff" stop-opacity="0.58"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <rect x="66" y="86" width="380" height="340" rx="82" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.9" stroke-width="8"/>
+  <path d="M318 170c-24-22-55-34-88-34-77 0-139 54-139 120s62 120 139 120c33 0 64-12 88-34l-35-39c-14 13-32 20-53 20-46 0-83-30-83-67s37-67 83-67c21 0 39 7 53 20z" fill="#4f73ff"/>
+  <g transform="translate(122 354)">
+    <circle cx="0" cy="0" r="20" fill="#ff5f57"/>
+    <circle cx="54" cy="0" r="20" fill="#ffbd2e"/>
+    <circle cx="108" cy="0" r="20" fill="#28c840"/>
+  </g>
+</svg>
